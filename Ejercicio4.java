@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        Scanner leedor = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Ingrese el primer numero");
-        int num1 = leedor.nextInt();
+        int num1 = input.nextInt();
 
         System.out.println("Ingrese el segundo numero");
-        int num2 = leedor.nextInt();
+        int num2 = input.nextInt();
 
         System.out.println("Ingrese el tercer numero");
-        int num3 = leedor.nextInt();
+        int num3 = input.nextInt();
 
         if (num1 > num2 && num1 > num3) {
             if (num2 > num3) {

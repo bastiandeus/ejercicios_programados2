@@ -6,7 +6,7 @@ public class Ejercicio5 {
         
         System.out.print("Ingrese un numero entre 0 y 9999: ");
         int num = input.nextInt();
-        while (num < 0 || num > 9999) {
+        while (num < 1 || num > 9999) {
             System.out.println("El numero ingresado esta fuera del rango valido.");
             num = input.nextInt();
         }
